@@ -11,5 +11,5 @@ gem 'asciidoctor-diagram', '~> 1.5.4'
 group :jekyll_plugins do
 
   gem 'jekyll-asciidoc', '~> 2.0.1'
-  gem 'asciidoctor-diagram'
+  gem 'asciidoctor-diagram', '~> 1.5.4'
 end
