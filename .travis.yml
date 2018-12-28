@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+- 2.2.5
+
+sudo: false
+before_install:
+  - gem install ruby_dep
+script: JEKYLL_ENV=production bundle exec rake deploy
+
+addons:
+  apt:
+    packages:
+    - graphviz
+env:
+  global:
+    secure: XUQCRXADl/inzQ8kQnL4utuBNJTj26LmYztyHk3r6E6kINQfs9OxkIQdEmAOvBR6PWn6JHSrY4rvEI4myBXI2uEE+zeE90zA6pBomvPvqdP0UyAEGEcWASYQ8gcPsAJZafjzzAsSw1u1XSXyQ7oswi3FrbfRO5Yi+6JP7GyKfVQL127jo5S4PckGYsEB1c4xlDujRKEb++K1yRc0kQaZgUL0bRv20fuOXHcR55Ktc5kC7nnIGCAhk0gkQLmSH9UoN0qmuXy20Qre1eOCXtRHaP+JwBNY9vVpgsYVP2gEMPoQwyPZeOg5MN5VHxyQCg2i39jYVadP6wJYSF2zWnEjZ3t0k9TfE5JR6hPe4dfF4N9aQX92ClgrzVPLMXCoYmZnVMFHQYCg5nUSLNR0oU8plLsCuxubkEZZBoZcOL/2eOppxajESPfqJKRgMebJ4Eg3Fa/F1K31t2iqXIf7o8POgHR66Ao8dLSpqCEo++1hXW99D2yYWUHJT3Xt42QTnArgzW6b2TES4fVGcqNl6E4PcL5HmSitWwCEbKAMQ/Z929uZ4umQ8wnarWiks7LYJFofHhiMd3WAP+d5bPXuIWO/3OfKULWuGno7LeC8PRjepCb3TckpFN+O1JckaxifHpMkn+WZeZzGQusmFzJBcv0OvvoOlIw2gTjqQEG6wT0H1IA=
