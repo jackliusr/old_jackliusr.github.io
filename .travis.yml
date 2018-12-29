@@ -8,7 +8,7 @@ rvm:
 sudo: false
 before_install:
   - gem install ruby_dep
-script: JEKYLL_ENV=production bundle exec build
+script: JEKYLL_ENV=production bundle exec jekyll build
 
 after_success:
   - bundle exec rake deploy:master
