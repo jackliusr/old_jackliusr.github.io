@@ -1,0 +1,33 @@
+= Diagram
+:showtitle:
+:page-navtitle: diagrams samples
+:page-excerpt:  asciidoc diagrams
+:page-root:  ../../../
+
+This page shows diagrams being used in a regular pages.
+
+== Diagram entries
+
+Ditaa
+[ditaa,memory,png]
+....
+
+      +--------+
+   0  |        |  <- start
+      +--------+
+   1  |        |  <- q  scans from start to end
+      +--------+
+      :  ..... |
+      +--------+
+      |        |  <- end
+      +--------+  <-+
+      |        |    |
+      +--------+    | rest of the
+      :  ..... |    | allocated memory
+      +--------+    |
+  n   |        |    |
+      +--------+  <-+
+....
+
+Powered by:
+ image::logo-2x.pgn[Jekyll]
