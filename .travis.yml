@@ -1,11 +1,21 @@
 language: ruby
+cache:
+  directories:
+    - /home/travis/.rvm/
 rvm:
 - 2.3.0
 
 sudo: false
 before_install:
   - gem install ruby_dep
-script: JEKYLL_ENV=production bundle exec rake deploy
+script: JEKYLL_ENV=production bundle exec build
+
+after_success:
+  - bundle exec rake deploy:master
+
+branches:
+  only:
+    - develop
 
 addons:
   apt:
