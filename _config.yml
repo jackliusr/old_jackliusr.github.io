@@ -208,7 +208,11 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
-
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 # prose.io config
 prose:
   rooturl: '_posts'
