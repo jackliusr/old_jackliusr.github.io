@@ -6,14 +6,17 @@ rvm:
 - 2.3.0
 
 sudo: false
-before_install:
-  - gem install ruby_dep
-script: JEKYLL_ENV=production bundle exec rake deploy
+install: bundle install
+script: JEKYLL_ENV=production bundle exec jekyll build
 
-
-branches:
-  only:
-    - develop
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local-dir: _site
+  target-branch: master
+  on:
+    branch: develop
 
 addons:
   apt:
