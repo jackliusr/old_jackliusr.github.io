@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "https://username.github.io"
+url: "https://jackliusr.github.io"
 baseurl: ""
 
 asciidoc: {}
@@ -89,11 +89,11 @@ social-network-links:
   facebook: jackliusr
   github: jackliusr
   twitter: jackliusr
-#  reddit: yourname
+  reddit: jackliusr
 #  google-plus: +DeanAttali
   linkedin: jackliusr
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
+  stackoverflow: "1101691/jack-liu-shurui"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  youtube: user/deanat78
@@ -137,7 +137,7 @@ url-pretty: "jackliusr.gitbub.io"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: ""
+disqus: "jackliusr-gh"
 
 # To use Facebook Comments, fill in a Facebook App ID
 # fb_comment_id: ""
