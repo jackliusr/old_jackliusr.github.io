@@ -7,6 +7,7 @@ require 'tmpdir'
 # See http://github.com/jirutka/rake-jekyll for more options.
 Rake::Jekyll::GitDeployTask.new(:deploy) do |t|
 	t.committer = 'Jack Liu <jackliusr@gmail.com>'
+	t.deploy_branch = 'master'
 
 end
 
