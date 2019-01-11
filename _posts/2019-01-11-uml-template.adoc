@@ -21,6 +21,7 @@ Class diagram--Relations between Class:
 Asciidoc UML sample
 
 [plantuml, diagram-classes, png]
+----
 class BlockProcessor
 class DiagramBlock
 class DitaaBlock
@@ -30,10 +31,12 @@ BlockProcessor <|-- DiagramBlock
 DiagramBlock <|-- DitaaBlock
 DiagramBlock <|-- PlantUmlBlock
 
+----
 
 PlantUML sample
-[plantuml, diagram-classes, png]
 
+[plantuml, diagram-classes, png]
+----
 class Class01
 class Class02
 class Class03
@@ -51,5 +54,6 @@ Class05 o-- Class06
 Class07 .. Class08
 Class09 -- Class10
 
+----
 
 
