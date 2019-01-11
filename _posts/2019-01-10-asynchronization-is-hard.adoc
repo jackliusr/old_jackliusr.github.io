@@ -1,4 +1,4 @@
-= Why I start to write again
+= Asynchronization is hard to implement
 :show title:
 :page-navtitle: Asynchronization is hard
 :page-excerpt: Asynchronzition brings efficiency, also adds some burdens to developers.  
