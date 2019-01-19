@@ -1,0 +1,50 @@
+= Unit 1: Experimental Chemistry
+:show title:
+:page-navtitle: Unit 1: Experimental Chemistry
+:page-excerpt: appropriate apparatus for measurement of time, timperature, mass and volume
+:page-root: ../../..
+
+== Experimental Design
+
+Measurement
+
+[cols="5*"]
+|===
+1.2+| Physical properties
+2+| SI Units
+1.2+| Other Common Units
+1.2+| Common measuring apparatus
+
+|Name
+|Symbol
+
+|time
+|second
+|s
+a|
+
+* hour (h)
+* minutes(min)
+* day
+
+a|
+
+* digital stopwatch
+* analogue stopwatch
+
+
+|mass
+|kilogram
+|kg
+a|
+
+* gram(g)
+* tonne(t)
+* milligram (mg)
+
+a|
+
+* electronic balance
+* beam balance
+
+
