@@ -62,13 +62,13 @@ a|
 
 | volume
 | cubic metre
-| m^3
+| m^3^
 a|
 
 * litre( _l_ )
 * millilitre ( _ml_ )
-* cubic centrimetres(cm^3)
-* cubic millimetres (mm^3)
+* cubic centrimetres(cm^3^)
+* cubic millimetres (mm^3^)
 
 a|
 
@@ -87,18 +87,19 @@ Measuring volume
 * Liquid:
 +
 
+[cols="2*"]
 |===
 | burette
 a|
 
-* it has an accuracy to 0.1 cm^2
+* it has an accuracy to 0.1 cm^2^
 * used to measure the volume of a solution accurately.
 
 |pipette
 a|
 
 * used to deliver an accurate fixed volume of a solution.
-* There are different pipettes designed to deliver different fixed volumes of solutions, such as 20 cm^3, 25 cm^3 or 50cm^3
+* There are different pipettes designed to deliver different fixed volumes of solutions, such as 20 cm^3^, 25 cm^3^ or 50cm^3^
 
 |measuring cylinder
 |it measures an approximate amount of volume of a solution.
@@ -109,7 +110,43 @@ a|
 |===
 
 
-* Meniscus is the *surface of the liquid that curves at the side* of the measuring intrument. To get an accurate volume reading, it must be read from the lowest or the highest level of the meniscus. *The surface of the liquid may curve upwards or downwards depending on the type of liquids.
+* Meniscus is the *surface of the liquid that curves at the side* of the measuring intrument. To get an accurate volume reading, it must be read from the lowest or the highest level of the meniscus. *The surface of the liquid may curve upwards or downwards depending on the type of liquids*.
 
+
+
+== Collection of Gases
+
+=== Methods for collecting gases
+
+Gases can be collected by the following methods
+
+* Displacement of air
+* Displacement of water
+* Gas syringes
+
+====  Displacement of air
+
+* Used to collect gases of *densities higher or lower than air*. it is not suitable for collecting a gas with a density same as air.
+* The air in a test tube will be displaced by the gas to be collected.
+* Two type of displacement of air
+** Downward delivery
+** Upward delivery
+
+==== Downward delivery
+* used to collect a gas which is *more dense than air*
++
+
+[cols="2*" options="header"]
+|===
+| Example |  Chemical formula
+| Chlorine | Cl~2~
+| hydrogen chloride | HCl
+| sulfur dioxide | SO~2~
+| carbon dioxide | CO~2~
+| nitrogen dioxide | NO~2~
+
+|===
+
+* The test tube or collecting apparatus is placed at the *upright* position. The gas produced *sinks down* into a test tube and displaces the air inside it.
 
 
