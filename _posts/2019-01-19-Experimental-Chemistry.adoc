@@ -150,3 +150,118 @@ Gases can be collected by the following methods
 * The test tube or collecting apparatus is placed at the *upright* position. The gas produced *sinks down* into a test tube and displaces the air inside it.
 
 
+==== Upward delivery
+* Used to collect a gas which is *less dense than air*.
++
+
+[cols="2*", options="header"]
+|===
+|Example | Chemical Formula
+| hydrogen | H~2~
+| ammonia | NH~3~
+|===
+
+* The test tube or collecting apparatus is placed at an *inverted* position. The gas produced *rises up* into a test tube and displaces the air inside it.
+
+==== Displacement of water
+Suitable for gases:
+*  *Insoluble* or only *slightly soluble in water*
+* Has the *density almost the same as air*(displacement of air can't take place)
++
+
+[cols="3*", options="header"]
+|===
+| Example         |  Chemical Formula | Reason for collecting gas using displacement of air
+| hydrogen        | H~2~              | slighted soluble in water only.
+| oxygen          | O~2~       | has the same density of air,  can't displace air from a collecting tube.
+| carbon dioxide | CO~2~    | slightly soluble in water only
+|===
+
+==== Drying Agents
+
+Drying agent can be used to obtain a dry sample of gas by removing its moisture content.
+
+The three common drying agents used in the laboratory to gases:
+
+[cols="3*", options="header"]
+|===
+| Chemical Name | Chemical formula | Examples of gases
+| anhydrous calcium chloride | CaCl~2~  | all gases except ammonia(NH~3~)
+| concentrated sulfuric acid | H~2~SO~4~ | all gases except alkaline gas such as ammonia ( NH~2~)
+| Calcium oxide | CaO   | all gases except acidic gases such as sulfur dioxide ( SO~2~)
+|===
+
+=== Elements, Compounds and mixtures
+
+==== Elements
+* All elements which are composed of only *one type of atom* are called an element.
+* Elements are the building blocks of matter because the elements alone or in combinations make up the entire universe such as the Sun, the Earth and all living and non-living things.
++
+
+[cols=4]
+.Elements in percent by mass in
+|===
+| Earth's crust   | Percentage | Human body | Percentage
+
+|Oxygen  | 49.5    | Oxygen | 65.0
+|Silicon | 25.7    | Carbon | 18.5
+| Aluminium | 7.5 | Hydrogen | 9.5
+| Iron | 4.7 | Nitrogen | 3.3
+| Calcium | 3.4 | Calcium | 1.5
+| Others | 9.2 | Others | 2.2
+|===
+
+* 117 known elements. About 92 of them occur naturally on Earth.
+* Elements are pure substances that *cann't be broken down into any simpler substances* by chemical methods.
+* In nature, elements can exist as
+**  Single atoms called monatomic elements.
+**  *Moecules of elements* which are pure substances made up of two or more atoms of the same type chemically joined together.
+* In chemistry, atoms in an element can be represented by colour or size. The diagramatic representation of elements.
++
+
+[%header,cols=4*]
+|===
+| Substance | Chemical Formula | Diagrammatic representation | Classification
+
+|Helium   | He |  |Monatomic
+| Hydrogen | H~2~ |    | Molecule of an element ( Diatomic)
+| Ozone | O~3~ |   | Molecule of an element
+| Sulfur | S~8~ |  | Molecule of an element
+|===
+
+* Each element has its own unique physical properties. Hence, we can use the following properties to identify an element:
+** Melting point
+** Boiling point
+* Element can be classified as metals and non-metals
++
+
+[%header, cols=3*]
+|    | metals | non-metals
+
+| General properties
+a|
+
+* Shiny
+* Good conductors of electricity and heat
+* Malleable
+* Ductile
+* High density
+* High melting and boiling points
+
+a|
+
+* Dull
+* Poor conductors of electricity and heat
+* Not malleable
+* Brittle
+* Low density
+* Low melting and boiling points
+
+|Examples | Copper, zinc |Iodine, sulfur
+|===
+
+
+
+| Examples
+
+
