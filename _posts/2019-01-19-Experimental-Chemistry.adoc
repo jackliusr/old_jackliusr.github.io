@@ -4,9 +4,7 @@
 :page-excerpt: appropriate apparatus for measurement of time, timperature, mass and volume
 :page-root: ../../..
 
-== Experimental Design
-
-Measurement
+== Measurement
 
 [cols="5*"]
 |===
@@ -165,6 +163,7 @@ Gases can be collected by the following methods
 
 ==== Displacement of water
 Suitable for gases:
+
 *  *Insoluble* or only *slightly soluble in water*
 * Has the *density almost the same as air*(displacement of air can't take place)
 +
@@ -191,9 +190,9 @@ The three common drying agents used in the laboratory to gases:
 | Calcium oxide | CaO   | all gases except acidic gases such as sulfur dioxide ( SO~2~)
 |===
 
-=== Elements, Compounds and mixtures
+== Elements, Compounds and Mixtures
 
-==== Elements
+=== Elements
 * All elements which are composed of only *one type of atom* are called an element.
 * Elements are the building blocks of matter because the elements alone or in combinations make up the entire universe such as the Sun, the Earth and all living and non-living things.
 +
@@ -236,8 +235,8 @@ The three common drying agents used in the laboratory to gases:
 +
 
 [%header, cols=3*]
-|    | metals | non-metals
-
+|===
+| |metals | non-metals
 | General properties
 a|
 
@@ -260,8 +259,30 @@ a|
 |Examples | Copper, zinc |Iodine, sulfur
 |===
 
+=== Compound
 
+A compound is a substance that contains two or more elements that are chemically combined. The elements in a compound are present in fixed proportions. 
 
-| Examples
+A chemical formula can be used to represent a compound. The formula shows:
+
+* the symbols for each element in the compound
+* the number of atoms of each element in a unit of the compound
+* Examples of compounds and their formulae. 
++
+
+[%header, cols=2*]
+|===
+| Name of Compound | Formual
+|Sodium chloride	| NaCl
+|Potassium bromide	| KBr
+|Magnesium iodide	| MgI2
+|Carbon dioxide	    | CO2
+|Carbon monoxide	| CO
+|Sulfur trioxide	| SO3
+|Water	            | H2O
+|Ammonia	| NH3
+|Methane	| CH4
+|===
+
 
 
