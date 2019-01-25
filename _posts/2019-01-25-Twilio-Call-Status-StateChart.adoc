@@ -1,0 +1,33 @@
+= Twilio Call Status StateChart
+:show title:
+:page-navtitle:  Twilio Call Status StateChart
+:page-excerpt: Twilio Call Status statechart
+:page-root: ../../..
+
+== Twilio Call Status StateChart
+
+I was not familiar with SIP states during the integration of VoIP products such as twilio, plivo and sinch. I am still confused about the state changes after reading documents. Here try to visualize the state change and help me to remember it.  The state chart is based on my understanding. It is not necessarily correct. It is just for my reference. 
+
+[plantuml, diagram-classes, png, width="400px", height="400px"]
+----
+[*] --> Queued
+Queued --> Initiated
+Initiated --> Ringing
+Ringing --> Answered
+Answered --> InProgress
+InProgress --> Completed
+
+Initiated --> Busy
+Busy --> [*]
+
+Ringing --> NoAnswer
+NoAnswer --> [*]
+
+Ringing --> Canceled
+Canceled --> [*]
+
+Ringing --> Failed
+Failed --> [*]
+
+Completed --> [*]
+----
