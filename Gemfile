@@ -6,6 +6,7 @@ gem 'jekyll-feed', '~> 0.11.0'
 gem 'asciidoctor', '~> 1.5.0'
 gem 'coderay', '~> 1.1.0'
 gem 'jekyll-plantuml', '~>1.1'
+gem 'pygments.rb', '~> 1.1.2'
 #gem 'rake-jekyll', '~> 1.1.0'
 #gem 'rake'
 

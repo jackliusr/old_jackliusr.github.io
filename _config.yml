@@ -7,7 +7,10 @@
 url: "https://jackliusr.github.io"
 baseurl: ""
 
-asciidoc: {}
+asciidoc: 
+  - source-highlighter=pygments
+
+
 keep_files:
   - images
 
@@ -19,6 +22,7 @@ asciidoctor:
     - source-highlighter=coderay
     - icons=font
     - imagesdir=/images
+    - stem
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
