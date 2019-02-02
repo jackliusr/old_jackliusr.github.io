@@ -7,8 +7,7 @@
 url: "https://jackliusr.github.io"
 baseurl: ""
 
-asciidoc: 
-  - source-highlighter=pygments
+asciidoc: {}
 
 
 keep_files:
