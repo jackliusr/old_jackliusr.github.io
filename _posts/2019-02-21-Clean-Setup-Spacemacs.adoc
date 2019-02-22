@@ -6,7 +6,6 @@
 :page-tags: [emacs, editor]
 :page-root: ../../..
 
-== The Stable Electronic configuration of a noble gas
 
 I encountered the same issue "File error: Cannot open load file, No such file or directory, bind-map" twice in my setup of spacemacs. The issue can be solved several ways which I found from github and clojurians-log.clojureverse.org. I consolidate the reasons and list them below. 
 
