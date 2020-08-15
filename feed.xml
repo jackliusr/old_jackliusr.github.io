@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journey</title>
+    <description>My thoughts</description>
+    <link>https://jackliusr.github.io</link>
+    <atom:link href="https://jackliusr.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>run redux-saga examples</title>
+        <description>
+          
+          run redux-saga examples TL;DR: yarn yarn build I run into module not found issues when I try to run those examples under the repository of redus-saga. Even following comments in github issues and stackoverflow, those solutions don&amp;#8217;t work out. Scripts in the package.json of the root folder don&amp;#8217;t work for...
+        </description>
+        <pubDate>Tue, 07 Jul 2020 00:00:00 -0700</pubDate>
+        <link>https://jackliusr.github.io/2020/07/07/run-redux-saga-example.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2020/07/07/run-redux-saga-example.html</guid>
+      </item>
+    
+      <item>
+        <title>Workaround solution for inout refcursor parameters for stored procedure in postgresql 11 JDBC</title>
+        <description>
+          
+          Workaround solution for inout refcursor parameters for stored procedure in postgresql 11 JDBC The workaround solution mentioned at Issue doesn&amp;#8217;t work when inout refcursor parameter is used. Here is my workaround solution for that. CREATE OR REPLACE PROCEDURE sp_test(INOUT results refcursor) LANGUAGE plpgsql SECURITY DEFINER AS $procedure$ begin results :=...
+        </description>
+        <pubDate>Tue, 10 Dec 2019 00:00:00 -0800</pubDate>
+        <link>https://jackliusr.github.io/2019/12/10/JDBC-get-refcursor-from-stored-procedure-in-PostgreSQL.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2019/12/10/JDBC-get-refcursor-from-stored-procedure-in-PostgreSQL.html</guid>
+      </item>
+    
+      <item>
+        <title>Error message of rabbitmq is terrible</title>
+        <description>
+          
+          Error message of rabbitmq is terrible Today I installed RabbitMQ 3.7.13-1. However I always got the following messages when running rabbitmq-server and a dump. The error message doesn&amp;#8217;t give any clue of root cause. It is none of the cases searched from google such as permission issue, configuration issue etc....
+        </description>
+        <pubDate>Tue, 12 Mar 2019 00:00:00 -0700</pubDate>
+        <link>https://jackliusr.github.io/2019/03/12/Terrible-error-messages-of-rabbitmq.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2019/03/12/Terrible-error-messages-of-rabbitmq.html</guid>
+      </item>
+    
+      <item>
+        <title>Issues of clean setup spacemacs and their solutions</title>
+        <description>
+          
+          Issues of clean setup spacemacs and their solutions I encountered the same issue &quot;File error: Cannot open load file, No such file or directory, bind-map&quot; twice in my setup of spacemacs. The issue can be solved several ways which I found from github and clojurians-log.clojureverse.org. I consolidate the reasons and...
+        </description>
+        <pubDate>Thu, 21 Feb 2019 00:00:00 -0800</pubDate>
+        <link>https://jackliusr.github.io/2019/02/21/Clean-Setup-Spacemacs.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2019/02/21/Clean-Setup-Spacemacs.html</guid>
+      </item>
+    
+      <item>
+        <title>Chemical Bonding</title>
+        <description>
+          
+          Chemical Bonding The Stable Electronic configuration of a noble gas An outer electron or outermost electron is also known as valence electron. Only outer electrons are involved in chemical reactions. In what way do noble gases behave differently from other chemistry ? Noble gases are unreactive because they have fully...
+        </description>
+        <pubDate>Sat, 02 Feb 2019 00:00:00 -0800</pubDate>
+        <link>https://jackliusr.github.io/2019/02/02/Chemical-Bonding.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2019/02/02/Chemical-Bonding.html</guid>
+      </item>
+    
+      <item>
+        <title>Kinetic Particle Theory</title>
+        <description>
+          
+          Kinetic Particle Theory States of Matter Matter is substance that has mass and occupies space. All living and non-living things are matter. State of matter: solid, liquid, gas Property Solid Liquid Gas Shape fixed not fixed not fixed Volume fixed fixed not fixed Compressibility Cannot be compressed cannot be compressed...
+        </description>
+        <pubDate>Fri, 01 Feb 2019 00:00:00 -0800</pubDate>
+        <link>https://jackliusr.github.io/2019/02/01/kinetic-particle-theory.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2019/02/01/kinetic-particle-theory.html</guid>
+      </item>
+    
+      <item>
+        <title>Math jax testing</title>
+        <description>
+          
+          Math jax testing
+
+The difference of two squared numbers
+
+
+
+\$a^2 - b^2 = (a + b )(a - b)\$
+
+
+        </description>
+        <pubDate>Fri, 01 Feb 2019 00:00:00 -0800</pubDate>
+        <link>https://jackliusr.github.io/2019/02/01/Mathjax-test.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2019/02/01/Mathjax-test.html</guid>
+      </item>
+    
+      <item>
+        <title>Integration of Klipse</title>
+        <description>
+          
+          Integration of Klipse
+
+
+(+ 1 2)
+
+
+        </description>
+        <pubDate>Fri, 01 Feb 2019 00:00:00 -0800</pubDate>
+        <link>https://jackliusr.github.io/2019/02/01/Integration-of-Klipse.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2019/02/01/Integration-of-Klipse.html</guid>
+      </item>
+    
+      <item>
+        <title>Atomic Structure</title>
+        <description>
+          
+          Atomic Structure Inside Atoms All matter is made up of atoms. Atoms are made up of subatomic particles: protons, neutrons and electrons. The protons and neutrons are tightly packed in the centre of an atom together from the nucleus of the atom. The electrons move rapidly around the nucleus. Subatomic...
+        </description>
+        <pubDate>Fri, 01 Feb 2019 00:00:00 -0800</pubDate>
+        <link>https://jackliusr.github.io/2019/02/01/Atomic-Structure.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2019/02/01/Atomic-Structure.html</guid>
+      </item>
+    
+      <item>
+        <title>Twilio Call Status StateChart</title>
+        <description>
+          
+          Twilio Call Status StateChart Twilio Call Status StateChart I was not familiar with SIP states during the integration of VoIP products such as twilio, plivo and sinch. I am still confused about the state changes after reading documents. Here try to visualize the state change and help me to remember...
+        </description>
+        <pubDate>Fri, 25 Jan 2019 00:00:00 -0800</pubDate>
+        <link>https://jackliusr.github.io/2019/01/25/TwilioCallStatusStateChart.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2019/01/25/TwilioCallStatusStateChart.html</guid>
+      </item>
+    
+      <item>
+        <title>Unit 1: Experimental Chemistry</title>
+        <description>
+          
+          Unit 1: Experimental Chemistry Measurement Physical properties SI Units Other Common Units Common measuring apparatus Name Symbol time second s hour (h) minutes(min) day digital stopwatch analogue stopwatch mass kilogram kg gram(g) tonne(t) milligram (mg) electronic balance beam balance temperature kelvin K degree Cesius(°C) degree Fahrenheit (°F) mercury-in-glass thermometer alcohol-in-glass...
+        </description>
+        <pubDate>Sat, 19 Jan 2019 00:00:00 -0800</pubDate>
+        <link>https://jackliusr.github.io/2019/01/19/Experimental-Chemistry.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2019/01/19/Experimental-Chemistry.html</guid>
+      </item>
+    
+      <item>
+        <title>Asciidoc diagram  samples of UML</title>
+        <description>
+          
+          Asciidoc diagram  samples of UML
+
+PlantUML Diagram
+
+
+Class diagram&amp;#8212;&amp;#8203;Relations between Class:
+
+
+
+
+
+
+
+
+Type
+Sysmbol
+
+
+Extension
+&amp;lt;!--
+
+
+Composition
+*--
+
+
+Aggregation
+o--
+
+
+
+
+Asciidoc UML sample
+
+
+
+
+
+
+
+PlantUML sample
+
+
+
+
+
+
+
+
+        </description>
+        <pubDate>Fri, 11 Jan 2019 00:00:00 -0800</pubDate>
+        <link>https://jackliusr.github.io/2019/01/11/uml-template.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2019/01/11/uml-template.html</guid>
+      </item>
+    
+      <item>
+        <title>Asynchronization is hard to implement</title>
+        <description>
+          
+          Asynchronization is hard to implement Asynchronization is very hard. It brings benefits with several catches for backend programming. Here is serveral catches and respective solutions. However all those will increase the cost of developments. Hard to debug and trace As the process breaks down to serveral asynchronious subprocesses, it is...
+        </description>
+        <pubDate>Thu, 10 Jan 2019 00:00:00 -0800</pubDate>
+        <link>https://jackliusr.github.io/2019/01/10/asynchronization-is-hard.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2019/01/10/asynchronization-is-hard.html</guid>
+      </item>
+    
+      <item>
+        <title>Why I start to write again</title>
+        <description>
+          
+          Why I start to write again I read a lot of blogs. However I rarely wrote my blogs about my thoughts and learning experiences as I thought those are lack of originality. I changed my mind after I learned more than ten thousand words using anki and memrise in the...
+        </description>
+        <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+        <link>https://jackliusr.github.io/2019/01/01/new-year-resolution.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2019/01/01/new-year-resolution.html</guid>
+      </item>
+    
+      <item>
+        <title>Diagram</title>
+        <description>
+          
+          Diagram
+
+
+
+This page shows diagrams being used in a regular pages.
+
+
+
+
+Diagram entries
+
+
+Ditaa
+
+
+
+
+
+
+
+Powered by:
+ image::logo-2x.pgn[Jekyll]
+
+
+
+        </description>
+        <pubDate>Thu, 20 Dec 2018 00:00:00 -0800</pubDate>
+        <link>https://jackliusr.github.io/2018/12/20/diagram.html</link>
+        <guid isPermaLink="true">https://jackliusr.github.io/2018/12/20/diagram.html</guid>
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>Math jax testing</title>
+
+  <meta name="author" content="Jack Liu Shurui" /><link rel="alternate" type="application/rss+xml" title="Journey - My thoughts" href="/feed.xml" /><!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-135021270-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics --><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" /><link rel="stylesheet" href="/css/bootstrap.min.css" /><link rel="stylesheet" href="/css/bootstrap-social.css" /><link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="/css/asciidoc.css" /><link rel="stylesheet" href="/css/pygment_highlights.css" /><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" /><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><!-- Facebook OpenGraph tags --><meta property="og:title" content="Math jax testing" /><meta property="og:description" content="Math jax testing
+
+The difference of two squared numbers
+
+
+
+\$a^2 - b^2 = (a + b )(a - b)\$
+
+"><meta property="og:type" content="website" /><meta property="og:url" content="https://jackliusr.github.io/2019/02/01/Mathjax-test.html" />
+  <link rel="canonical" href="https://jackliusr.github.io/2019/02/01/Mathjax-test.html" /><meta property="og:image" content="https://jackliusr.github.io/img/avatar-icon.jpg" /><!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" /><meta name="twitter:title" content="Math jax testing" /><meta name="twitter:description" content="Math jax testing
+
+The difference of two squared numbers
+
+
+
+\$a^2 - b^2 = (a + b )(a - b)\$
+
+"><meta name="twitter:image" content="https://jackliusr.github.io/img/avatar-icon.jpg" /></head>
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({
+     messageStyle: "none",
+     tex2jax: {
+         inlineMath: [["\\(", "\\)"]],
+         displayMath: [["\\[", "\\]"]],
+         ignoreClass: "nostem|nolatexmath"
+     },
+     asciimath2jax: {
+         delimiters: [["\\$", "\\$"]],
+         ignoreClass: "nostem|noasciimath"
+     },
+     TeX: { equationNumbers: { autoNumber: "none" } }
+ });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+<body><nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button><a class="navbar-brand" href="https://jackliusr.github.io">Journey</a></div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right"><li><a href="/aboutme">About Me</a>
+</li><li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Resources</a>
+            <div class="navlinks-children"><a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+<a href="http://www.markdowntutorial.com/">Learn markdown</a>
+<a href="https://pages.github.com/">GitHub Pages</a>
+</div>
+          </li><li><a href="http://jackliusr.github.io">Author's home</a>
+</li></ul>
+    </div><div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="https://jackliusr.github.io ">
+	      <img class="avatar-img" src="/img/avatar-icon.jpg" />
+		</a>
+	  </div>
+	</div></div>
+</nav>
+<!-- TODO this file has become a mess, refactor it --><header class="header-section"><div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>Math jax testing</h1><span class="post-meta">Posted on February 1, 2019</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+</header><link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css">
+
+<script>
+ window.klipse_settings = {
+     codemirror_options_in: {
+         lineWrapping: true,
+         autoCloseBrackets: true
+     },
+     codemirror_options_out: {
+         lineWrapping: true,
+     },
+     selector: '.language-klipse pre',
+     selector_eval_js: '.language-klipse-eval-js',
+     selector_eval_php: '.language-klipse-eval-php',
+     selector_eval_ruby: '.language-klipse-eval-ruby',
+     selector_js: '.language-klipse-js'
+ };
+</script>
+<script src="https://storage.googleapis.com/app.klipse.tech/plugin_prod/js/klipse_plugin.min.js"></script>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><article role="main" class="blog-post">
+        <h1>Math jax testing</h1>
+<div class="paragraph">
+<p>The difference of two squared numbers</p>
+</div>
+<div class="stemblock">
+<div class="content">
+\$a^2 - b^2 = (a + b )(a - b)\$
+</div>
+</div>
+      </article><div class="blog-tags">
+          Tags:<a href="/tags#math">math</a><a href="/tags#latex">latex</a></div><!-- Check if any share-links are active --><section id = "social-share-section">
+  <span class="sr-only">Share: </span><!--- Share on Twitter -->
+    <a href="https://twitter.com/intent/tweet?text=Math+jax+testing+https://jackliusr.github.io/2019/02/01/Mathjax-test.html"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a><!--- Share on Facebook -->
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://jackliusr.github.io/2019/02/01/Mathjax-test.html"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a><!--- Share on LinkedIn -->
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://jackliusr.github.io/2019/02/01/Mathjax-test.html"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fa fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a></section><ul class="pager blog-pager"><li class="previous">
+          <a href="/2019/02/01/Integration-of-Klipse.html" data-toggle="tooltip" data-placement="top" title="Integration of Klipse">&larr; Previous Post</a>
+        </li><li class="next">
+          <a href="/2019/02/01/kinetic-particle-theory.html" data-toggle="tooltip" data-placement="top" title="Kinetic Particle Theory">Next Post &rarr;</a>
+        </li></ul><div class="disqus-comments"><div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'jackliusr-gh';
+        /* ensure that pages with query string get the same discussion */
+            var url_parts = window.location.href.split("?");
+            var disqus_url = url_parts[0];
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div></div><div class="staticman-comments"></div></div>
+  </div>
+</div>
+<footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="mailto:someone@example.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li><li><a href="https://www.facebook.com/jackliusr" title="Facebook"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li><li><a href="https://github.com/jackliusr" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/jackliusr" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li><li><a href="https://reddit.com/u/jackliusr" title="Reddit"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-reddit fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Reddit</span>
+              </a>
+            </li><li><a href="https://linkedin.com/in/jackliusr" title="LinkedIn"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li><li><a href="https://stackoverflow.com/users/1101691/jack-liu-shurui" title="StackOverflow"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">StackOverflow</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Jack Liu Shurui
+      &nbsp;&bull;&nbsp;
+      2020&nbsp;&bull;&nbsp;
+      <a href="https://jackliusr.github.io">jackliusr.gitbub.io</a></p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- doing something a bit funky here because I want to be careful not to include JQuery twice! --><script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script><!-- doing something a bit funky here because I want to be careful not to include JQuery twice! --><script src="/js/bootstrap.min.js"></script><!-- doing something a bit funky here because I want to be careful not to include JQuery twice! --><script src="/js/main.js"></script></body>
+</html>
